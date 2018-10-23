@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    jcenter()
+}
+
+mainClassName = 'App'
+
+dependencies {
+    compile 'org.jdom:jdom2:2.0.5'
+	compile 'org.jfree:jfreechart:1.0.19'
+	compile 'org.apache.poi:poi:3.12'
+	compile 'mysql:mysql-connector-java:5.1.23'
+    testCompile 'junit:junit:4.12'
+}
+
