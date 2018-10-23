@@ -7,7 +7,7 @@ repositories {
     jcenter()
 }
 
-mainClassName = 'App'
+mainClassName = 'prociencia2.ProCiencia2'
 
 dependencies {
     compile 'org.jdom:jdom2:2.0.5'
